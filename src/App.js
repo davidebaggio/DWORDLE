@@ -1,16 +1,12 @@
-import './App.css';
-import Navbar from './navbar';
+import './style/main.css';
+import Navbar from './Components/navbar';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
       <Navbar />
-      <header className="App-header">
-        <p>
-          Hello
-        </p>
-      </header>
-    </div>
+    </React.Fragment>
   );
 }
 
